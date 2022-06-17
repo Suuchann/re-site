@@ -5,7 +5,7 @@ a, a::before {
 }
 .header-wrap {
     width: 1200px;
-    height: 275px;
+    height: 270px;
     margin: 0 auto;
 }
 .xnb ul {
@@ -41,7 +41,7 @@ a, a::before {
 }
 .gnb {
     width: 1200px;
-    height: 75px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -76,6 +76,7 @@ a, a::before {
     top: 270px;
     left: 0;
     z-index: 99;
+    box-shadow: 1px 1px #72C4CC;
 }
 footer {
     border-top: 1px solid #72C4CC;
@@ -152,5 +153,5 @@ footer {
 }
 .gallery img:hover {
     transform: scale(1.1);
-    transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.5s;
 }
