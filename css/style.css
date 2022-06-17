@@ -76,13 +76,26 @@ a, a::before {
     left: 0;
     z-index: 99;
 }
+footer {
+    border-top: 1px solid #72C4CC;
+}
 .footer-wrap {
     width: 1200px;
-    height: 270px;
+    height: 250px;
+    box-sizing: border-box;
     margin: 0 auto;
+    padding: 20px 0;
+}
+.footer-wrap ul li {
+    margin: 5px 0;
 }
 .footer-top ul {
     display: flex;
+    margin: 0 0 0 30px;
+}
+.footer-top ul li {
+    margin: 0 20px 0 0;
+    font-weight: 700;
 }
 .footer-bottom ul {
     display: flex;
@@ -90,10 +103,16 @@ a, a::before {
 }
 .address ul {
     display: block;
+    margin: 0 0 0 30px;
+}
+.address ul li {
+    margin: 15px 0;
+    font-size: 14px;
 }
 .sns ul {
     display: flex;
+    margin: 0 30px 0 0;
 }
 .sns ul li {
-    margin: 0 0.5rem;
+    margin: 15px 0 15px 30px;
 }
