@@ -24,7 +24,7 @@ a, a::before {
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
-    padding: 0 250px;
+    padding: 0 400px;
 }
 .logo {
     width: 140px;
