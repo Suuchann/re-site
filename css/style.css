@@ -166,6 +166,12 @@ footer {
     text-align: center;
     color: #72C4CC;
 }
+.main h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #72C4CC;
+}
 .hero {
     position: relative;
     width: 1200px;
@@ -211,4 +217,16 @@ footer {
     text-align: center;
     line-height: 250px;
     color: #72C4CC;
+}
+/* product */
+.product-list {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.product-list img {
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
 }
