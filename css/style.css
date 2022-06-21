@@ -270,12 +270,12 @@ footer {
 /* notice */
 .notice-list {
     width: 1100px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .notice-box {
-    width: 1098px;
+    width: 1100px;
     /* height: 98px; */
-    line-height: 98px;
+    line-height: 100px;
     box-sizing: border-box;
     border: 2px solid #72C4CC;
     position: relative;
@@ -296,21 +296,14 @@ footer {
 }
 .notice-text {
     display: none;
-    width: 1098px;
+    width: 1100px;
     height: 300px;
     box-sizing: border-box;
     padding: 0 50px;
     background: #FFFFFF;
     border-top: 2px solid #72C4CC;
 }
-/* .notice-text {
-    width: 1098px;
-    height: 298px;
-    box-sizing: border-box;
-    padding: 0 50px;
-    position: absolute;
-    top: 100%;
-    left: calc(0% - 2px);
-    background: #FFFFFF;
-    border: 2px solid #72C4CC;
-} */
+.notice-text p {
+    margin: 20px 0 0 0;
+    line-height: 24px;
+}
