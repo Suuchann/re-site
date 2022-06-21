@@ -2,6 +2,7 @@ i = 0
 $(function(){
     menu();
     setInterval (carousel, 5000)
+    noticeList();
 })
 function menu(){
     $(".gnb > li").mouseenter(function(){
@@ -24,4 +25,9 @@ function carousel(){
         marginLeft: newLeft
     })
     i++
+}
+function noticeList(){
+    $(".notice-box").click(function(){
+        $(this).find(".notice-text").stop().slideToggle();
+    })
 }
