@@ -221,12 +221,20 @@ footer {
 /* product */
 .product-list {
     width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .product-list img {
-    box-sizing: border-box;
+    width: 250px;
+    height: 380px;
     margin: 0 0 10px 0;
+}
+.product-title:hover {
+    font-weight: 700;
+    color: #72C4CC;
+}
+.product-list p {
+    margin: 10px 0;
 }
