@@ -69,34 +69,56 @@
                     <h4>회원가입</h4>
                     <ul class="signin-list">
                         <li class="signin-top">
-                            <label for="user-id">아이디
-                                <input type="text" name="user-id">
-                                <button>중복확인</button>
-                            </label>
-                            <label for="user-pw">비밀번호
-                                <input type="password" name="user-pw-check">
-                            </label>
-                            <label for="user-pw">비밀번호 확인
-                                <input type="password" name="user-pw-check">
-                            </label>
+                            <ul>
+                                <li>
+                                    <ul id="signin-id">
+                                        <li><p>아이디</p></li>
+                                        <li><input type="text" name="user-id"></li>
+                                        <li><button>중복확인</button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><p>비밀번호</p></li>
+                                        <li><input type="password" name="user-pw-check"></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><p>비밀번호 확인</p></li>
+                                        <li><input type="password" name="user-pw-check"></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                         <li class="signin-bottom">
-                            <label for="user-name">이름
-                                <input type="text" name="user-name">
-                            </label>
-                            <label for="user-address">주소
-                                <input type="text" name="user-address">
-                                <button>주소찾기</button>
-                                <input type="text">
-                            </label>
-                            <label for="user-phone">전화번호
-                                <input type="number" name="user-phone">
-                            </label>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><p>이름</p></li>
+                                        <li><input type="text" name="user-name"></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul id="signin-address">
+                                        <li><p>주소</p></li>
+                                        <li><input type="text" name="user-address"></li>
+                                        <li><button>주소찾기</button></li>
+                                    </ul>
+                                </li>
+                                <li id="address-plus"><input type="text"></li>
+                                <li>
+                                    <ul>
+                                        <li><p>전화번호</p></li>
+                                        <li><input type="number" name="user-phone"></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-                    <div class="signin-ok">
-                        <button>회원가입</button>
-                    </div>
+                <div class="signin-ok">
+                    <button>회원가입</button>
+                </div>
             </div>
         </div>
     </article>

@@ -315,16 +315,68 @@ footer {
 }
 .signin-list {
     width: 1000px;
-    height: 570px;
+    height: 630px;
     box-sizing: border-box;
     border: 1px solid #72C4CC;
     margin: 2rem auto;
-    padding: 10px;
+    padding: 50px 10px;
 }
-.signin-top label, .signin-bottom label {
-    display: block;
+.signin-list p {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
-
+.signin-list li {
+    margin: 5px 0;
+}
+.signin-top, .signin-bottom {
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+}
+.signin-top > ul > li > ul, .signin-bottom > ul > li > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.signin-list input, .signin-list button {
+    width: 650px;
+    height: 50px;
+    border: 2px solid #72C4CC;
+}
+#signin-id button {
+    width: 248px;
+    height: 50px;
+    line-height: 50px;
+    background: #72C4CC;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+}
+#signin-id input {
+    width: 360px;
+    height: 50px;
+}
+#signin-address button {
+    width: 248px;
+    height: 50px;
+    line-height: 50px;
+    background: #72C4CC;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+}
+#signin-address input {
+    width: 360px;
+    height: 50px;
+}
+#address-plus {
+    width: 900px;
+    height: 50px;
+    margin: 0 0 10px 242px;
+}
 .signin-ok button {
     width: 200px;
     height: 60px;
