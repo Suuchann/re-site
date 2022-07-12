@@ -1,6 +1,7 @@
 i = 0
 $(function(){
     noticeList();
+    sidebar();
 
     if($(window).width() < 769) {
         setInterval(mobileCarousel, 5000);
@@ -26,7 +27,7 @@ function menu(){
 }
 function mobileMenu(){
     $(".gnb > li").on("click", function(e){
-        e.preventDefault();
+        // e.preventDefault();
         $(this).find(".lnb").stop().slideToggle();
     })
 }
@@ -51,4 +52,18 @@ function noticeList(){
     $(".notice-box").click(function(){
         $(this).find(".notice-text").stop().slideToggle();
     })
+}
+function sidebar(){
+    $(".burger").on("click", function(){
+        $(this).hide();
+        $(".close").show();
+        $(".gnb-wrap").show();
+        $(".xnb").show();
+    });
+    $(".close").on("click", function(){
+        $(this).hide();
+        $(".burger").show();
+        $(".gnb-wrap").hide();
+        $(".xnb").hide();
+    });
 }
